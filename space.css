@@ -1,0 +1,123 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://igauravmahajan.in/wp-content/uploads/2023/08/feature_Indias-Space-Journey-Under-Narendra-Modi.webp') no-repeat center center fixed;
+    background-size: cover; /* Ensures the background image covers the whole page */
+    color: #fff;
+    line-height: 1.6;
+    height: 100vh; /* Make sure the background covers the full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Content Styles */
+main {
+    flex: 1; /* This ensures the main content takes up all available space */
+}
+.srikanth {
+    display: flex; /* Ensure the element is a flex container */
+    justify-content: flex-end; /* Aligns child items to the right */
+    padding-top: 20%;
+    padding-right: 15%;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 0, 0, 0); /* Darken the header background for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 204, 0, 0.2); /* Light hover effect */
+}
+
+/* Accordion Styles */
+.accordion-section {
+    margin-top: 20px;
+    display: none;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Darken section backgrounds for better visibility */
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.accordion-content {
+    text-align: center;
+}
+
+.accordion-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+.accordion-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.accordion-content h3 {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    margin-top: 15px;
+}
+
+.accordion-content p {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+/* Hover Effects */
+.accordion:hover {
+    cursor: pointer;
+    background-color: rgba(255, 204, 0, 0.3); /* Light background on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(0, 0, 0, 0); /* Darken footer for contrast */
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    color: #bbb;
+}
